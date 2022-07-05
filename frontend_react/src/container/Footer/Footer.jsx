@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import { SocialMedia } from '../Footer';
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client } from '../../client';
@@ -98,6 +99,9 @@ const Footer = () => {
           <h3 className='head-text'>Thank you for getting in touch!</h3>
         </div>
       )}
+      <div>
+        <SocialMedia />
+      </div>
     </>
   );
 };
