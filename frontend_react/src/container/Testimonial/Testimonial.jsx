@@ -33,7 +33,7 @@ const Testimonial = () => {
       setCurrentIndex((oldIndex) => {
         let currentIndex = oldIndex + 1;
         if (currentIndex > testimonials.length - 1) {
-          currentIndex = 0;
+          currentIndex = 1;
         }
         return currentIndex;
       });
